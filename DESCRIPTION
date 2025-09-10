@@ -1,7 +1,7 @@
 Type: Package
 Package: vibass
 Title: Materials for Introductory Course on Bayesian Learning
-Version: 1.0.1
+Version: 1.0.3
 Authors@R: 
     c(person(given = "VIBASS Team",
              role = c("aut", "cph")),
@@ -46,18 +46,19 @@ License: GPL-3
 Depends: R (>= 4.0)
 Imports: cli, dplyr, extraDistr, ggplot2, golem, knitr, lme4, magrittr,
         R2BayesX, rlang, rstudioapi, shiny (>= 1.5), tibble, tidyr,
-Suggests: bayesrules, coda, cowplot, faraway, hrbrthemes, htmlwidgets,
-        INLA, ISLR, LaplacesDemon, magick, MASS, MCMCpack, plotly,
-        rmarkdown, pacman, png, spData, stringi, waffle
+Suggests: spelling, bayesrules, coda, colorspace, cowplot, faraway,
+        htmlwidgets, INLA, ISLR, LaplacesDemon, magick, MASS, MCMCpack,
+        plotly, rmarkdown, pacman, png, spData, stringi
 VignetteBuilder: knitr
 URL: http://vabar.es/vibass/, https://github.com/VABAR/vibass
 BugReports: https://github.com/VABAR/vibass/issues
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Additional_repositories: https://inla.r-inla-download.org/R/testing
+Language: en-GB
 NeedsCompilation: no
-Packaged: 2025-07-02 11:35:15 UTC; facu
+Packaged: 2025-09-10 12:51:12 UTC; facu
 Author: VIBASS Team [aut, cph],
   Facundo Muñoz [ctb, cre] (Cirad, Package developer, ORCID:
     <https://orcid.org/0000-0002-5061-4241>),
@@ -70,4 +71,4 @@ Author: VIBASS Team [aut, cph],
     <https://orcid.org/0000-0002-4791-3072>)
 Maintainer: Facundo Muñoz <facundo.munoz@cirad.fr>
 Repository: CRAN
-Date/Publication: 2025-07-07 09:00:02 UTC
+Date/Publication: 2025-09-10 16:00:02 UTC

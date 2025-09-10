@@ -10,13 +10,11 @@ pacman::p_load(
   dplyr,
   extraDistr,
   ggplot2,
-  hrbrthemes,
   knitr,
   magrittr,
   png,
   tibble,
-  tidyr,
-  waffle
+  tidyr
 )
 
 
@@ -158,7 +156,7 @@ tibble(
   ) +
   scale_fill_discrete_qualitative() +
   scale_color_discrete_qualitative() +
-  theme_ipsum(grid = "Y")
+  theme_minimal_hgrid()
 
 ## ----fig.align='center', out.width="60%"--------------------------------------
 curve(
@@ -263,8 +261,10 @@ tibble(
     y = NULL,
     parse = TRUE
   ) +
-  theme_ipsum(grid = "xX") +
+  theme_minimal_vgrid() +
   theme(
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
     axis.text.y = element_blank()
   )
 
