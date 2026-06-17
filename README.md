@@ -3,7 +3,7 @@
 
 # vibass
 
-[<img src="http://vabar.es/images//widget_vibass8.png" width="300px"/>](http://vabar.es/events/vibass8/)
+[<img src="https://vabar.github.io/images//widget_vibass9.png" width="300px"/>](https://vabar.github.io/events/vibass9/)
 
 <!-- badges: start -->
 
@@ -14,8 +14,8 @@ status](https://www.r-pkg.org/badges/version/vibass)](https://CRAN.R-project.org
 <!-- badges: end -->
 
 Teaching materials for the [introductory course on Bayesian
-inference](http://vabar.es/events/vibass8-intro/) at
-[VIBASS](http://vabar.es/events/vibass8/)
+inference](https://vabar.github.io/events/vibass9-intro/) at
+[VIBASS](https://vabar.github.io/events/vibass9/)
 
 ## Installation
 
@@ -36,7 +36,7 @@ install.packages('vibass', repos = c('https://vabar.r-universe.dev', 'https://cl
 
 If installed with vignettes, the package contains the course practicals.
 Otherwise, it points to the corresponding articles in the web site
-<http://vabar.es/vibass/>.
+<https://vabar.github.io/vibass/>.
 
 Most importantly, it contains interactive apps associated with some of
 the practicals
@@ -45,7 +45,7 @@ the practicals
 library(vibass)
 
 ## If installed with vignettes:
-## Otherwise, read at: http://vabar.es/vibass/
+## Otherwise, read at: https://vabar.github.io/vibass/
 browseVignettes('vibass')  # Index of all practicals
 vignette('p1')  # Open practical
 

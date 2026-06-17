@@ -49,8 +49,9 @@ overflow: visible;
 }
 </style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -61,7 +62,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
 { counter-reset: source-line 0; }
@@ -415,7 +416,7 @@ impossible. However, in many cases this is not needed and
 <code>INLA</code> can fit some classes of models in a fraction of the
 time it takes with MCMC. It has a very simple interface to define
 models, although it cannot be installed directly from CRAN - instead you
-have a specific website where it can be downloaded: <a href="https://www.r-inla.org/download-install">https://www.r-inla.org/download-install</a></p></li>
+have a specific website where it can be downloaded: <a href="https://www.r-inla.org/download/">https://www.r-inla.org/download/</a></p></li>
 <li><p>The <code>Stan</code> software implements Hamiltonian Monte Carlo
 and other methods for fit hierarchical Bayesian models. It is available
 from <a href="https://mc-stan.org" class="uri">https://mc-stan.org</a>.</p></li>
@@ -500,7 +501,7 @@ install it in the usual way from CRAN.</p>
 <span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a><span class="co">#&gt; The following object is masked from &#39;package:dplyr&#39;:</span></span>
 <span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a><span class="co">#&gt;     collapse</span></span>
-<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a><span class="co">#&gt; This is mgcv 1.9-3. For overview type &#39;help(&quot;mgcv-package&quot;)&#39;.</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a><span class="co">#&gt; This is mgcv 1.9-4. For overview type &#39;?mgcv&#39;.</span></span>
 <span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a><span class="co">#&gt; Attaching package: &#39;mgcv&#39;</span></span>
 <span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a><span class="co">#&gt; The following objects are masked from &#39;package:LaplacesDemon&#39;:</span></span>
